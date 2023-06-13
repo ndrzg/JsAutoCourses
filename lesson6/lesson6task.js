@@ -24,42 +24,8 @@ if (player1score > player2score){
 
 
 
-let startDate  = new Date(Date.UTC(2000, 1, 1))
-let endDate  = new Date ()
-
-let fridayNumber = 13
-let dayOfWeek = 6
-
-let fridaysCount = 0 
-
-while(startDate<endDate){
-    if(startDate.getDate() == fridayNumber && startDate.getDay() == dayOfWeek ){
-        fridaysCount++
-    }
-    startDate.setDate(startDate.getDate() + 1)
-}
 
 
-console.log(fridaysCount)
-
-
-
-let number = 13
-let parts = 6
-
-let partsArray = [];
-let remaining = number;
-  
-    for (let i = 0; i < parts - 1; i++) {
-      let maxNumber = remaining;
-      let randNumber = Math.floor(Math.random() * (maxNumber + 1));
-      remaining -= randNumber;
-      partsArray.push(randNumber);
-    }
-  
-    partsArray.push(remaining);
-  
-    console.log(partsArray)
 
 
 

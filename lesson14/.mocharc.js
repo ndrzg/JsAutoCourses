@@ -1,7 +1,7 @@
 module.exports = {
-//    require: ['chai'], // Load Chai expect assertions
-    spec: 'test/**/*.spec.js', // Specify the test files pattern
-    reporter: 'Nyan', // Set the reporter
+//    require: ['chai'],
+    spec: 'test/**/*.spec.js', 
+    reporter: 'Nyan', 
     reporterOptions: {
       reporterEnabled: 'spec, mocha-junit-reporter',
       mochaJunitReporterReporterOptions: {

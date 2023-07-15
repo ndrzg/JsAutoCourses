@@ -1,7 +1,6 @@
 const Calculator = require('../calculator') 
 const{expect} = require('chai')
-//const Mocha = require('mocha');
-//const mocha = new Mocha({ reporter: 'Nyan' });
+
 
 
 
@@ -240,8 +239,3 @@ describe('calculator testing suit', function(){
 
 
 })
-
-
-
-//mocha.addFile('../lesson14/test/testing.spec');
-//mocha.run();

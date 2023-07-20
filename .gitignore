@@ -3,3 +3,5 @@ package-lock.json
 .package-lock.json
 lesson12/build
 lesson14/node_modules
+lesson16/node_modules
+lesson16/coverage

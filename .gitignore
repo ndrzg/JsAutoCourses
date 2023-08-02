@@ -1,8 +1,6 @@
 package-lock.json
 .package-lock.json
-lesson12/build
-lesson16/coverage
-
 build
 node_modules
 coverage
+allure-results

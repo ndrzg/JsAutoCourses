@@ -1,0 +1,39 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true,
+        "mocha": true
+
+    },
+    "extends": [
+        "google"
+    ], 
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        "func-names": "off",
+        "no-unused-expressions": "off",
+        "no-console": "warn",
+        "no-unused-vars": "error",
+        "mocha/no-skipped-tests": "warn",
+        "mocha/no-exclusive-tests": "warn",
+        "max-len": ["error", { "code": 120 }]
+
+    },
+    "plugins": [
+        "mocha"
+    ],
+    "settings": {
+        "mocha/additionalCustomNames": [
+            { "name": "describeModule", "type": "suite", "interfaces": [ "BDD" ] },
+            { "name": "testModule", "type": "testCase", "interfaces": [ "TDD" ] }
+        ]
+    },
+
+    "ignorePatterns": ["node_modules/", "build/", "wdio.conf.js", "allure-results/"]
+}
+
+

@@ -50,9 +50,6 @@ class LoginPage {
             case 'loginWithSSO':
                 this.loginWithSSO().click();
                 break;
-            // Добавьте другие кейсы для разных типов логина
-            default:
-                throw new Error(`Unsupported login type: ${type}`);
         }
     }
 }
